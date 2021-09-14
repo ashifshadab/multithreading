@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ashifshadb</groupId>
+	<artifactId>multithreadedProgramming</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>multithreadedProgramming</name>
+	<description>Multithreaded Programming</description>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<modules>
+		<module>mainThread</module>
+		<module>threadBasicOperation</module>
+		<module>creatingThread</module>
+		<module>yieldOperations</module>
+		<module>joinOperation</module>
+		<module>Synchronization</module>
+		<module>volatile</module>
+		<module>interthreadCommunication</module>
+		<module>deadLockAndLiveLock</module>
+		<module>stopThread</module>
+		<module>threadLocal</module>
+		<module>threadGroup</module>
+		<module>shutdownHook</module>
+		<module>InheritableThreadLocal</module>
+	</modules>
+</project>
